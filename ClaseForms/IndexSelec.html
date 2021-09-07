@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vamos a ver la etiqueta select">
+    <meta name="robots" content="index,allow">
+    <title>Uso de Select</title>
+</head>
+<body>
+    <!-- Select normal -->
+    <select name="frutas" id="">
+        <!-- Aqui van la opciones que existen -->
+        <option value="manzana">manzana</option><!-- con value tiene que ir iguak que la opcion para que el navegador recolpile la informacio -->
+
+        <option value="naranja">naranja</option>
+        <option value="limon">limon</option>
+    </select>
+    
+    <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+    <!-- Select de buenas practicas cuando hay muchas opciones -->
+    <input list="frutas">
+    <datalist id="frutas">
+        <option value="manzana">manzana</option><!-- con value tiene que ir iguak que la opcion para que el navegador recolpile la informacio -->
+        <option value="naranja">naranja</option>
+        <option value="limon">limon</option>
+    </datalist>
+</body>
+</html>
